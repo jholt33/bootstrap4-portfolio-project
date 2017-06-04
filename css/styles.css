@@ -2,6 +2,14 @@ body {
     padding-top: 54px;
 }
 
+h1, h2, h3, h4, h5, h5 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+p, ul, li, a {
+  font-family: 'Raleway', sans-serif;
+}
+
 .navbar-toggler {
     height: 1.7em;
 }

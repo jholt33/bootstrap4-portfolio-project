@@ -8,8 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Raleway:500" rel="stylesheet">
+
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -46,36 +45,117 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container text-sm-center">
-    <h1 class="display-4 animated fadeInDown">The Bootstrap 4 Project</h1>
-    <p class="lead">Welcome to Bootstrap 4!</p>
+    <h1 class="display-4 animated fadeInDown">A Simple BootStrap 4 Project</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam reprehenderit quis quia, enim expedita nesciunt.</p>
   </div>
 </div> <!-- /jumbotron -->
 
 <div class="container">
   <div class="row my-2">
-       <div class="col-lg-12 text-xs-center">
-           <h1 class="display-4 pb-2">Portfolio</h1>
+       <div class="col-lg-8">
+           <h1>Headline 1</h1>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde tenetur consectetur dolorem mollitia ab sed quod dolor eaque cumque assumenda autem saepe, quos atque quasi cupiditate officiis sunt voluptatum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde tenetur consectetur dolorem mollitia ab sed quod dolor eaque cumque assumenda autem saepe, quos atque quasi</p>
-       </div>
+            <div class="card">
+              <div class="card-block text-xs-center">
+               <a href="img/seascape.jpg" data-toggle="modal" data-target="#myModal"><img src="img/seascape.jpg" alt="Card image" class="img-fluid"></a>
+                <h3 class="card-title">Special title treatment</h3>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-primary btn-lg hvr-grow" data-toggle="modal" data-target="#myModal">
+                   Launch demo modal
+                </button>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Sea Scape</h4>
+                  </div>
+                  <div class="modal-body">
+                  <img src="img/seascape.jpg" alt="Card image" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 bg-inverse">
+            <form class="py-2">
+             <h2>Get in Touch!</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect1">Example select</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect2">Example multiple select</label>
+                <select multiple class="form-control" id="exampleSelect2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea">Example textarea</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block hvr-shrink">Submit</button>
+            </form> <!-- /form -->
+        </div>
     </div> <!-- /row -->
    <div class="row my-2">
-       <div class="col-lg-6">
+      <h1 class="text-xs-center display-4 pb-2">Portfolio</h1>
+       <div class="col-lg-4">
             <div class="card">
               <div class="card-block text-xs-center">
                <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                 <h3 class="card-title">Project 1</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
               </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <div class="card">
               <div class="card-block text-xs-center">
                <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                 <h3 class="card-title">Project 2</h3>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+              <div class="card-block text-xs-center">
+               <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
+                <h3 class="card-title">Project 3</h3>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
               </div>
             </div>
         </div>
@@ -87,7 +167,7 @@
                 <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                  <h3 class="card-title">Project 1</h3>
                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                 <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                 <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                </div>
              </div>
          </div>
@@ -97,7 +177,7 @@
                 <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                  <h3 class="card-title">Project 2</h3>
                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                 <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                 <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                </div>
              </div>
          </div>
@@ -107,49 +187,39 @@
                 <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                  <h3 class="card-title">Project 3</h3>
                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                 <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                 <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                </div>
              </div>
          </div>
      </div> <!-- /row -->
      <div class="row my-2">
-         <div class="col-lg-3">
+         <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-xs-center">
                  <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                   <h3 class="card-title">Project 1</h3>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                  <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                 </div>
               </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-xs-center">
                  <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                   <h3 class="card-title">Project 2</h3>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                  <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                 </div>
               </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-xs-center">
                  <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
                   <h3 class="card-title">Project 3</h3>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary hvr-grow">View More</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-3">
-              <div class="card">
-                <div class="card-block text-xs-center">
-                 <img src="img/seascape.jpg" alt="Card image" class="img-fluid revealOnScroll" data-animation="zoomIn">
-                  <h3 class="card-title">Project 3</h3>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary hvr-grow">View More</a>
+                  <a href="#" class="btn btn-primary hvr-grow">Go somewhere</a>
                 </div>
               </div>
           </div>
