@@ -1,1 +1,1 @@
-This is a sample Bootstrap 4 project with CSS animations using the latest Bootstrap 4 tech
+This is a simple Bootstrap 4 project with cards, modals and CSS animations using the latest Bootstrap 4 documentaion.
