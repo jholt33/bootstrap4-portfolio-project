@@ -36,7 +36,7 @@ $(function() {
       var $this     = $(this),
           offsetTop = $this.offset().top;
       if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+        $(this).removeClass('animated zoomIn flip')
       }
     });
   }
