@@ -28,13 +28,14 @@ body {
 
 .btn-primary {
     color: #fff;
-    background-color: #6a8aa7;
+    background: #6a8aa7;
     border-color: #6a8aa7;
+    transition: all 0.5s ease 0s;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #58595b;
+    background: #58595b;
     border-color: #58595b;
 }
 
@@ -81,7 +82,7 @@ footer a:hover {
         box-shadow: 0 0 1px rgba(0, 0, 0, 0);
         backface-visibility: hidden;
         -moz-osx-font-smoothing: grayscale;
-        transition-duration: 0.3s;
+        transition-duration: 0.4s;
         transition-property: transform;
     }
 
