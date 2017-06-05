@@ -1,5 +1,7 @@
 body {
-    padding-top: 54px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 54px;
 }
 
 h1, h2, h3, h4, h5, h5 {
@@ -80,6 +82,18 @@ footer a:hover {
       font-size: 1em;
       margin-left: 5px;
     }
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.active:focus, .navbar-dark .navbar-nav .nav-link.active:hover {
+      color: #6a8aa7;
+}
+
+#portfolio {
+
+}
+
+#about {
+  
+}
 
 /* Media Queries */
 
